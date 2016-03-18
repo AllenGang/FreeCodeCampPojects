@@ -1,0 +1,54 @@
+Body {
+  background-color: #FFFFFF;
+}
+
+section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 25em;
+  width: 50em;
+  transform: translate(-50%, -50%);
+  background-color: #00FF5A;
+  background: radial-gradient(#00FF9A,#FFFFFF);
+  
+}
+
+h2 {
+  font-family: "Arial Black";
+  margin: 0.5em;
+  background: linear-gradient(45deg,#00FF99,#0D0F99,#F0F8FF,#F88F8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: "Brush Script MT";
+  font-size: 1.75em;
+  background: linear-gradient(45deg,#00FF99,#000FF9,#F88F8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  position: fixed;
+  left: 55%;
+  top: 85%;
+}
+
+.btn:focus{
+  outline: 0;
+  color: #00FF99;
+}
+.button {
+  background-color: #FFFFFF;
+  color: #00FF99;
+  font-size: 20px;
+  border: 4px solid #00FF99;
+  border-radius: 15%;
+}
+.button:hover{
+  background-color: #00FF99;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
