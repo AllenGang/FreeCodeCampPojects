@@ -1,0 +1,39 @@
+center{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -50px;
+  border-style: double;
+  border-width: 20px;
+  border-color: #DDDDDD;
+  width: 200px;
+  background: linear-gradient(to bottom right,#39CCCC,#3D9970,#2ECC40);
+}
+
+h{
+  font-size: 30px;
+  color: #001f3f;
+}
+
+input[type=button] {
+  margin: 2px;
+  height: 30px;
+  width: 30px;
+  font: 15px;
+  border-radius: 0px;
+}
+
+input[value=AC] {
+  width: 68px;
+}
+
+input[value=CE] {
+  width: 68px;
+}
+
+.display {
+  width: 178px;
+  text-align: right;
+  
+}

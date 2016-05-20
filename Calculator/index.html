@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+  <title>Calculator</title>
+</head>
+
+<body>
+  <center>
+    <h>
+      <B>Calculator</B>
+    </h>
+    <form name="calculator">
+      <input name="display" class="display" placeholder="0" readonly/><br>
+
+      <input type="button" value="AC" onclick="btnAllClear()" />
+      <input type="button" value="CE" onclick="btnClearEntry()" />
+      <input type="button" value="x²" onclick="btnSquare()" /><br>
+
+      <input type="button" value="7" onclick="document.calculator.display.value +='7'; CE = true;" />
+      <input type="button" value="8" onclick="document.calculator.display.value +='8'; CE = true;" />
+      <input type="button" value="9" onclick="document.calculator.display.value +='9'; CE = true;" />
+      <input type="button" value="/" onclick="btnDiv()" />
+      <input type="button" value="√" onclick="btnSqrt()" /><br>
+
+      <input type="button" value="4" onclick="document.calculator.display.value +='4'; CE = true;" />
+      <input type="button" value="5" onclick="document.calculator.display.value +='5'; CE = true;" />
+      <input type="button" value="6" onclick="document.calculator.display.value +='6'; CE = true;" />
+      <input type="button" value="*" onclick="btnMult()" />
+      <input type="button" value="%" onclick="btnMod()" /><br>
+
+      <input type="button" value="1" onclick="document.calculator.display.value +='1'; CE = true;" />
+      <input type="button" value="2" onclick="document.calculator.display.value +='2'; CE = true;" />
+      <input type="button" value="3" onclick="document.calculator.display.value +='3'; CE = true;" />
+      <input type="button" value="-" onclick="btnMinus()" />
+      <input type="button" value="1/x" onclick="btnInverse()" /><br>
+
+      <input type="button" value="0" onclick="document.calculator.display.value +='0'; CE = true;" />
+      <input type="button" value="." onclick="btnDot()" />
+      <input type="button" value="±" onclick="btnSign()" />
+      <!--  -->
+      <input type="button" value="+" onclick="btnPlus()" />
+      <input type="button" value="=" onclick="btnEval()" /><br>
+    </form>
+  </center>
+
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
