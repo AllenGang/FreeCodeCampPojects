@@ -1,0 +1,53 @@
+body {
+  background-color: sienna;
+}
+
+h1 {
+  color: skyblue;
+  margin-top: 2%;
+  left: 50%;
+}
+
+.random {
+  font-size: 18px;
+  top: 25%;
+  margin-bottom: 2%;
+}
+.search-input {
+  position: fixed;
+  top: 30px;
+  right: 1.5%;
+  border: 0;
+  outline: 0;
+  background: #dcddd8;
+  width: 18%;
+  height: 45px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: skyblue;
+}
+
+ul {
+  list-style-type: none;
+}
+.content{
+  width: 60%;
+}
+.split {
+  border-style: solid;
+  border-color: skyblue;
+  padding: 10px 10px;
+}
+
+li {
+  color: black;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: black;
+}
