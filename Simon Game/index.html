@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id="green-audio"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" id="red-audio"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" id="yellow-audio"></audio>
+<audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" id="blue-audio"></audio>
+
+<div class="outer">
+  
+  <div class="ring blue"></div>
+  <div class="ring green"></div>
+  <div class="ring red"></div>
+  <div class="ring yellow"></div>
+
+  <div class="display">
+    <div class="inner">
+      <div id="start"><button>Start</button></div>
+      <div id="reset"><button>On/Off</button></div>
+      <div id="mode"><button>Mode</button></div>
+      <div id="value"></div>
+    </div>
+  </div>
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
